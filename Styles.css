@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body{
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+} */
+header{
+    width: 100% ;
+    height: 55px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    background-color: rgb(114, 40, 217);
+    
+}
+/* i{
+    color:#fff;
+    cursor: pointer;
+} */
+header .logo{
+
+    flex: 1;
+    color: #f3f0f0;
+    margin-left: 20px;
+}
+header .search-box{
+    flex: 1;
+    position: relative;
+    padding-right: 35px;
+    
+}
+.search-box input{
+    width: 50%;
+    height: 110%;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+.search-box i{
+    cursor: pointer;
+    position: relative;
+    top: 2px;
+    right: 30px;
+    transform: scale(0.9);
+}
+
+header ul{
+    flex: 3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    color: #f3f0f0;
+    padding: 10px 15px;
+}
+
+header .menu{
+    font-size: 2em;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+ul img{
+    border: 3px solid black;
+    margin-top: 4px;
+    border-radius: 10px;
+    
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    float: right;
+    margin-top: 150px;
+    z-index: 1000;
+    transform: scale(0.91);
+    position: sticky;
+    top: 60px;
+    
+
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+    margin-left: 35px;
+}
+.container img{
+    border-radius: 15px;
+    width: 160%;
+    height: 110%;
+    cursor: pointer;
+}
+
+.container textarea{
+    background-color: rgb(178, 163, 192);
+    border-radius: 15px;
+    margin-left: 40px;
+    width: 100%;
+    height:110%
+}
+
+.container2{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    margin-top: 80px;
+    padding: 5%;
+}
+
+
+.box{
+    
+    width: 30vw;
+    display: flex;
+    position: sticky;
+    margin-top: 50px;
+    
+}
+.box1{
+    margin-top: 50;
+    background-color: rgb(153, 139, 230);
+    color: #f3f0f0;
+    width: 20%;
+    border-radius: 15px;
+
+
+}
+.box2{
+    margin-top: 50;
+    background-color: blueviolet;
+    color: #f3f0f0;
+    width: 20%;
+    border-radius: 15px;
+    align-items: center;
+    
+}
+.box3{
+    margin-top: 50;
+    color: #f3f0f0;
+    background-color: rgb(211, 116, 224);
+    width: 20%;
+    border-radius: 15px;
+    
+}
+.box4{
+    margin-top: 50;
+    background-color: rgb(14, 13, 14);
+    color: #f3f0f0;
+    width: 20%;
+    border-radius: 15px;
+    
+}
+h2{
+    padding: 10px;
+}
+.container3{
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+    width: 95%;
+    height:500px;
+    margin-left: 40px;
+
+}
+.row1{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    justify-content: space-around;
+    margin-right: 50px;
+}
+.btn1{
+    background-color:aqua;
+    width: 300%;
+    height: 20%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn2{
+    background-color: transparent;
+    width: 300%;
+    height: 20%;
+    border: 3px solid rgb(205, 205, 205);
+    color: white;
+    font-size: 20px;
+    border-radius: 10px ;
+    cursor: pointer;
+}
+.btn3{
+    background-color: transparent;
+    width: 300%;
+    height: 20%;
+    color: white;
+    border: 3px solid rgb(205, 205, 205);
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.row2{
+    background-color: #f3f0f0;
+  margin-top: 40px;
+  margin-left: 100px;
+  width: 60%;
+  height: 85%;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+    
+}
+
+.row2 button{
+    background-color: black;
+    position:relative;
+    float: right;
+    margin-right: 40px;
+    margin-top: 170px;
+    width:70px;
+    height:30px;
+    float: inline-end;
+    margin-bottom: 15px;
+    color: white;
+    border: 1px solid rgb(205, 205, 205);
+    font-size: 16px;
+    cursor: pointer;
+}
+.row2 h1{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.row2 h4{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 45px;
+}
+
+
+.chatsupport{
+    
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    margin-right: 30px;
+    cursor: pointer;
+}
